@@ -1,1 +1,7 @@
 Some extra test tools and scripts for making life easier
+
+heca-misc/tree/master/bench/appmembench:
+Appmembench is a benchmark for live migration that allocates and 
+repeatedly writes blocks of memory while measuring the iteration 
+time needed forthe writes. It thus allows the rate at which memory 
+pages are dirtied to be controlled accurately.
